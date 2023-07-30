@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
     height: 100vh;
     color: #fff;
@@ -109,16 +110,23 @@ body{
     margin-top: auto;
 }
 .fore-cast{
-    /* outline: auto; */
     display: flex;
     align-items: center;
     padding-right: 1rem;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.fore-cast-des{
+    display: flex;
+    align-items: center;
+    /* width: 141px; */
+    /* min-width: ; */
 }
 .fore-cast img{
     width: 70px;
-    margin-left: auto;
+    /* margin-left: auto; */
 }
 
 .temp {
     font-family: 'Barlow', sans-serif;
-}
+}  
