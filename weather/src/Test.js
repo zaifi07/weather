@@ -17,7 +17,7 @@ const daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Fri
   const nextDayDate = new Date(cityDateNow);
   const anotherNextDayDate = new Date(cityDateNow);
 
-  nextDayDate.setDate(cityDateNow.getDate() + 1);
+nextDayDate.setDate(cityDateNow.getDate() + 1);
 const nextDay = nextDayDate.getDate();
 const nextDayYear = nextDayDate.getFullYear();
 
